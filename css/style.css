@@ -1,0 +1,139 @@
+body {
+	background: black;
+	color: white;
+	font-weight: 200;
+	letter-spacing: 0.1em;
+}
+section {
+	padding: 0;
+
+	/*height: calc(100vh - 39px);*/
+}
+h1, h2, h3 {
+	font-weight: 200;
+}
+h1 {
+	font-size: 5em;
+}
+#type {
+	background: black;
+}
+#type ul {
+	padding: 40px 0;
+}
+.btn-get-dimension,
+.btn-get-result,
+.do-another {
+	font-size: 2em;
+	padding: 15px 25px !important;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	border: 1px solid white;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+	color:white;
+}
+/*.btn-get-result,
+.do-another {
+	padding: 15px 20px;
+	border: 1px solid white;
+	margin: 15px 0;
+	font-size: 2em;
+	cursor: pointer;
+	color: white;
+}
+.btn-get-result:hover,
+.do-another:hover {
+	text-decoration: none;
+	color: white;
+}*/
+.btn-get-dimension:hover,
+.btn-get-dimension:focus,
+.btn-get-result:hover,
+.btn-get-result:focus,
+.do-another:hover,
+.do-another:focus {
+	border-color: #ff8f1f;
+	color: #ff8f1f;
+	text-decoration: none;
+}
+#dimension {
+	/*background: #2b2b2b;*/
+	background: black;
+	display: none;
+}
+#dimension-input,
+#result-wrapper {
+	padding: 40px 0;
+	color: #ff8f1f;
+}
+.input-line-wrapper {
+	padding: 10px 0px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.input-line-wrapper span {
+	margin-left: 15px;
+}
+label {
+	display: block;
+	font-weight: 200;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0; 
+}
+input {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	/*border-bottom-width: 2px;*/
+	border-left-width: 0px;
+	border-bottom: 2px solid #ff8f1f;
+	font-size: 3.5em;
+	background: none;
+}
+input.input-ft {
+	width: 2em;
+	text-align: right;
+}
+input.input-in {
+	width: 1em;
+	text-align: right;
+}
+input:hover,
+input:active,
+input:focus {
+	outline-width: 0;
+
+}
+.unit {
+	font-size: 2em;
+}
+.user-input h4 {
+	font-weight: 200;
+	text-transform: uppercase;
+}
+#result {
+	/*background: #707070;*/
+	background: black;
+	display: none;
+}
+#result-wrapper table th,
+#result-wrapper table td {
+	text-align: right;
+}
+#result-wrapper table tr th:first-child,
+#result-wrapper table tr td:first-child { text-align: left;}
+.table-hover>tbody>tr:hover {
+	color: #fff;
+	background: #000;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border-top: 1px solid #2a2a2a;
+}
+.table>thead>tr>th {
+	border-bottom: 1px solid #646464;
+}
